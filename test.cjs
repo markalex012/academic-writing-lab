@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),W=require('./engine.js');
+const c=vm.createContext({});vm.runInContext(fs.readFileSync('./data.js','utf8'),c);const rows=vm.runInContext('SENSOR',c);
+const near=(a,b,t=1e-10)=>assert.ok(Math.abs(a-b)<t,`${a} != ${b}`);
+assert.equal(rows.length,24);assert.equal(new Set(rows.map(r=>r.unit)).size,4);const m=W.metrics(rows);
+near(m.rawNoise,.65);near(m.maNoise,.3175);near(m.noiseReduction,.3325);near(m.noisePercent,51.15384615384615);near(m.rawTime,113.75);near(m.maTime,133.75);near(m.timeIncrease,20);near(m.timePercent,17.58241758241758);near(m.ratio,1.1758241758241759);assert.equal(m.maxMA,160);
+const r=W.requirement(rows,130);assert.equal(r.passing,6);assert.equal(r.total,12);assert.equal(r.all,false);assert.equal(W.requirement(rows,170).all,true);
+assert.equal(W.rubric([4,4,4,4,4,4]),100);assert.equal(W.rubric([0,0,0,0,0,0]),0);assert.equal(W.rubric([4,0,0,0,0,0]),20);assert.throws(()=>W.rubric([5,0,0,0,0,0]));
+assert.equal(W.escape([4,2,2,3,0],['a','b','c','d','e'],['a','b','c','d','e']),true);assert.equal(W.escape([4,2,2,3,0],['a','b','c','d',''],['a','b','c','d','e']),false);assert.equal(W.escape([4,2,2,3,1],['a','b','c','d','e'],['a','b','c','d','e']),false);
+near(W.mean([8,9,7,8]),8);near(W.mean([10,10,9,11]),10);near(W.percent(8,10),25);near(W.percent(1.25,2.25),80);assert.equal(W.words('  טענה אחת\n ושתי ראיות  '),4);
+assert.equal(vm.runInContext('REFS.length',c),36);assert.equal(vm.runInContext('POLICY_ANSWERS.length',c),6);
+console.log('PASS: 24 rows / 4 units, equal-unit summaries, percentages and direction, all-run threshold, 0–4 rubric, evidence locks, battery transfer, word counts, source coverage');
