@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-29",
+  "playlistId": "PLMa2NUdlhnJo",
+  "playlistTitle": "AI ORT Prompt Engineering",
+  "modules": [
+    {
+      "moduleId": 0,
+      "videoPolicy": "youtube",
+      "videos": [
+        {
+          "order": 1,
+          "youtubeTitle": "00 01 Intro",
+          "videoId": "2Fe-AGi0b9g",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        },
+        {
+          "order": 2,
+          "youtubeTitle": "00 02 Intro",
+          "videoId": "lcpGmzjoM4U",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        },
+        {
+          "order": 3,
+          "youtubeTitle": "00 03 Intro",
+          "videoId": "3FXNq8Q2oRE",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        },
+        {
+          "order": 4,
+          "youtubeTitle": "00 04 Intro",
+          "videoId": "4YqnY8bAOv8",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        }
+      ]
+    },
+    {
+      "moduleId": 1,
+      "videoPolicy": "youtube",
+      "videos": [
+        {
+          "order": 1,
+          "youtubeTitle": "01 01 Personalization",
+          "videoId": "tsL0JaoWpwo",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        },
+        {
+          "order": 2,
+          "youtubeTitle": "01 02 Personalization",
+          "videoId": "j0oEdXC8w9E",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        },
+        {
+          "order": 3,
+          "youtubeTitle": "01 03 Personalization",
+          "videoId": "9M4SdVqx9yg",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        }
+      ]
+    },
+    {
+      "moduleId": 2,
+      "videoPolicy": "not_planned",
+      "videos": []
+    },
+    {
+      "moduleId": 3,
+      "videoPolicy": "youtube",
+      "videos": [
+        {
+          "order": 1,
+          "youtubeTitle": "03 01 TOV",
+          "videoId": "XCVoHsFL06o",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        }
+      ]
+    },
+    {
+      "moduleId": 4,
+      "videoPolicy": "youtube",
+      "videos": [
+        {
+          "order": 1,
+          "youtubeTitle": "04 01 Boost",
+          "videoId": "itvLFe8_y3A",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        }
+      ]
+    },
+    {
+      "moduleId": 5,
+      "videoPolicy": "youtube",
+      "videos": [
+        {
+          "order": 1,
+          "youtubeTitle": "05 01 ActAs",
+          "videoId": "MpDFCeQdpSc",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        },
+        {
+          "order": 2,
+          "youtubeTitle": "05 02 ActAs",
+          "videoId": "RUKPGFfG3_4",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        }
+      ]
+    },
+    {
+      "moduleId": 6,
+      "videoPolicy": "youtube",
+      "videos": [
+        {
+          "order": 1,
+          "youtubeTitle": "06 01 Search",
+          "videoId": "vWs0N1Dzt84",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        },
+        {
+          "order": 2,
+          "youtubeTitle": "06 02 Search",
+          "videoId": "19q4xgjjPqc",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        }
+      ]
+    },
+    {
+      "moduleId": 7,
+      "videoPolicy": "youtube",
+      "videos": [
+        {
+          "order": 1,
+          "youtubeTitle": "07 01 50 Prompts",
+          "videoId": "VSt-sEkUv9U",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        },
+        {
+          "order": 2,
+          "youtubeTitle": "07 02 50 Prompts",
+          "videoId": "6NQ4Q4wgChk",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        },
+        {
+          "order": 3,
+          "youtubeTitle": "07 03 50 Prompts",
+          "videoId": "Uv3IdqVLN7M",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        }
+      ]
+    },
+    {
+      "moduleId": 8,
+      "videoPolicy": "youtube",
+      "videos": [
+        {
+          "order": 1,
+          "youtubeTitle": "08 01 Info",
+          "videoId": "l01JWavjUYE",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        },
+        {
+          "order": 2,
+          "youtubeTitle": "08 02 Info",
+          "videoId": "_txwDJZMMac",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        },
+        {
+          "order": 3,
+          "youtubeTitle": "08 03 Info",
+          "videoId": "CypYtvLZleg",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        },
+        {
+          "order": 4,
+          "youtubeTitle": "08 04 Info",
+          "videoId": "oYOHembEE7o",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        }
+      ]
+    },
+    {
+      "moduleId": 9,
+      "videoPolicy": "youtube",
+      "videos": [
+        {
+          "order": 1,
+          "youtubeTitle": "09 01 Sof",
+          "videoId": "lTWqmDSgzio",
+          "metadataStatus": "verified",
+          "chapterStatus": "pending",
+          "chapters": []
+        }
+      ]
+    }
+  ]
+}
